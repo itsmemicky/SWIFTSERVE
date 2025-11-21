@@ -8,8 +8,7 @@ import java.util.*;
 public class adminDashboard {
     
     config con = new config();
-    
-    // top-level manage users menu
+
     public void manageUsers() {
         String res;
         do {
@@ -42,8 +41,7 @@ public class adminDashboard {
             res = Main.inp.nextLine();
         } while(res.equalsIgnoreCase("yes") || res.equals("1"));
     }
-    
-    // list pending users and approve by id
+  
     public void approveUsers() {
         System.out.println("\n--- Pending Users ---");
         String sql = "SELECT * FROM tbl_user WHERE u_status = 'Pending'";
@@ -152,7 +150,6 @@ public class adminDashboard {
         }
     }
 
-    // ---------------- Manage Events ----------------
     public void manageEvents() {
         String res;
         do {
@@ -254,7 +251,6 @@ public class adminDashboard {
         }
     }
 
-    // ---------------- Manage Menu ----------------
     public void manageMenu() {
         String res;
         do {
@@ -345,7 +341,6 @@ public class adminDashboard {
         }
     }
 
-    // ---------------- Manage Bookings ----------------
     public void manageBookings() {
         String res;
         do {

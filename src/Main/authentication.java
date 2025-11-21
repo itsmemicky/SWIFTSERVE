@@ -19,11 +19,9 @@ public class authentication {
         System.out.print("Enter Password: ");
         String pass = Main.inp.nextLine();
 
-        // Use config.login which sets lastLoginUserId on success
         String role = con.login(email, pass);
 
         if (role != null) {
-            // set Main.currentUserID from config.lastLoginUserId
             Main.currentUserID = con.lastLoginUserId;
             if (role.equalsIgnoreCase("Admin")) {
                 Main.adminDashborad();
@@ -31,7 +29,6 @@ public class authentication {
                 Main.customerDashboard();
             }
         } else {
-            // login failed or pending - return to main
             Main.main(null);
             return;
         }

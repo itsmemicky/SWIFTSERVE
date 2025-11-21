@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
     
     public static Scanner inp = new Scanner(System.in);
-    public static int currentUserID = -1; // stores logged-in user id
+    public static int currentUserID = -1; 
     
     public static void main(String[] args) {
         
