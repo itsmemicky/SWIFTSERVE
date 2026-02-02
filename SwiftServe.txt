@@ -1,0 +1,10 @@
+SWIFTSERVE
+
+Swift: Represents agility, responsiveness, and time-saving. In the catering world, 
+"Swift" means a client gets a quote in minutes, not days, and an event is organized without delays.
+
+Serve: This is the soul of the industry. It represents the act of catering, 
+but also the technical "server" that hosts the system. It bridges the gap between 
+digital efficiency and human hospitality.
+
+Upgraded Name of Catering Booking System
